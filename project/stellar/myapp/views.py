@@ -3,7 +3,7 @@ from myapp.models import Contact
 # Create your views here.
 
 def hello_world(request):
-    return render(request,'home.html')
+    return render(request,'hello_world.html')
     
 
 def contact(request):
